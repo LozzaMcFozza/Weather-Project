@@ -23,7 +23,7 @@ body {
 .search-bar {
   border: none;
   border-radius: 5px;
-  width: 70%;
+  width: 75%;
   font-size: 18px;
   padding: 15px 20px;
 }
@@ -33,7 +33,42 @@ body {
   padding: 15px 30px;
   border: none;
   font-size: 18px;
-  margin-left: 5px;
+  margin-left: 10px;
   border-radius: 5px;
   color: whitesmoke;
+}
+
+.humidity {
+  font-weight: bold;
+  color: coral;
+}
+
+.wind-speed {
+  font-weight: bold;
+  color: coral;
+}
+
+.temp-details {
+  display: flex;
+  margin-left: 200px;
+}
+
+.temp-icon {
+  font-size: 40px;
+  margin-top: 10px;
+}
+.temp-value {
+  font-size: 56px;
+  font-weight: bold;
+  margin-left: 10px;
+}
+.temp-unit {
+  font-size: 22px;
+}
+
+footer {
+  border-top: 1px solid darkseagreen;
+  padding: 15px 0 0 0;
+  text-align: center;
+  font-size: 12px;
 }

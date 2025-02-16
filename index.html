@@ -12,18 +12,20 @@
   <body>
     <div class="search-function">
    <header>
-    
       <input type="search" placeholder="Enter a City" required class="search-bar"/>
       <input type="submit" value="Search" class="search-button"/>
     </header>
     </div>
     <div class="weather-app">
+        <div class="weather-data">
     <div>
-    <h1>City Name</h1>
-    <h2>Date:Time</h2>
-    <p>Humidity: 10%      Speed: 2km/h</p> </div>
+    <h1 class="weather-city">City</h1>
+    <p class="date-time">Date:Time</p>
+    </div>
 
-    <div> 10 C</div>
+    <div class="temp-details"> <div class="temp-icon">☀️</div> <div class="temp-value">10</div> <div class="temp-unit"> °C</div> </div>
+    <p> Humidity: <span class="humidity">10%         </span>      Speed: <span class="wind-speed">2km/h</span> 
+ </div>
   </body>
   <footer>
     Coded by Lauren Whike, open-sourced on GitHub, and hosted on Netlify
