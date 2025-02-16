@@ -3,32 +3,49 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@300..700&display=swap" rel="stylesheet">
-    <link rel = "stylesheet" href="src/style.css"/>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Quicksand:wght@300..700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="src/style.css" />
     <title>Weather Project</title>
   </head>
   <body>
     <div class="search-function">
-   <header>
-      <input type="search" placeholder="Enter a City" required class="search-bar"/>
-      <input type="submit" value="Search" class="search-button"/>
-    </header>
+      <header>
+        <input
+          type="search"
+          placeholder="Enter a City"
+          required
+          class="search-bar"
+        />
+        <input type="submit" value="Search" class="search-button" />
+      </header>
     </div>
     <div class="weather-app">
-        <div class="weather-data">
-    <div>
-    <h1 class="weather-city">City</h1>
-    <p class="date-time">Date:Time</p>
-    </div>
+      <div class="weather-data">
+        <div>
+          <h1 class="weather-city">City</h1>
+          <p class="date-time">Date:Time</p>
+        </div>
 
-    <div class="temp-details"> <div class="temp-icon">☀️</div> <div class="temp-value">10</div> <div class="temp-unit"> °C</div> </div>
-    <p> Humidity: <span class="humidity">10%         </span>      Speed: <span class="wind-speed">2km/h</span> 
- </div>
+        <div class="temp-details">
+          <div class="temp-icon">☀️</div>
+          <div class="temp-value">10</div>
+          <div class="temp-unit">°C</div>
+        </div>
+        <p>
+          Humidity: <span class="humidity">10% </span> Speed:
+          <span class="wind-speed">2km/h</span>
+        </p>
+      </div>
+
+      <footer>
+        Coded by Lauren Whike, open-sourced on GitHub, and hosted on Netlify
+      </footer>
+    </div>
+    <script src="src/index.js"></script>
   </body>
-  <footer>
-    Coded by Lauren Whike, open-sourced on GitHub, and hosted on Netlify
-  </footer>
-  </div>
 </html>
