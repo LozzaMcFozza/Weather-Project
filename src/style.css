@@ -1,0 +1,18 @@
+body {
+  background: darkseagreen;
+}
+
+.search-function {
+  background-color: whitesmoke;
+  max-width: 600px;
+  margin: 30px auto;
+  padding: 30px;
+}
+
+.weather-app {
+  background-color: whitesmoke;
+  max-width: 600px;
+  margin: 30px auto;
+  padding: 30px;
+  text-align: center;
+}
