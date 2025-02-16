@@ -8,6 +8,7 @@ body {
   max-width: 600px;
   margin: 30px auto;
   padding: 30px;
+  border-radius: 20px;
 }
 
 .weather-app {
@@ -16,5 +17,23 @@ body {
   margin: 30px auto;
   padding: 30px;
   text-align: center;
-  font-family: "quicksand";
+  border-radius: 20px;
+}
+
+.search-bar {
+  border: none;
+  border-radius: 5px;
+  width: 70%;
+  font-size: 18px;
+  padding: 15px 20px;
+}
+
+.search-button {
+  background: darkseagreen;
+  padding: 15px 30px;
+  border: none;
+  font-size: 18px;
+  margin-left: 5px;
+  border-radius: 5px;
+  color: whitesmoke;
 }
