@@ -54,16 +54,17 @@ body {
 }
 
 .temp-icon {
-  font-size: 40px;
-  margin-top: 10px;
+  width: 88px;
 }
 .temp-value {
   font-size: 56px;
   font-weight: bold;
   margin-left: 10px;
+  line-height: 88px;
 }
 .temp-unit {
   font-size: 22px;
+  margin-top: 10px;
 }
 
 footer {
