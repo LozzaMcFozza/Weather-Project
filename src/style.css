@@ -3,6 +3,10 @@ body {
   font-family: "Roboto", serif;
 }
 
+a {
+  color: #f76b8a;
+}
+
 .search-function {
   background-color: #ffcbcb;
   max-width: 600px;
